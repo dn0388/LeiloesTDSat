@@ -10,7 +10,7 @@ public class ProdutosDAO {
     PreparedStatement prep;
     ResultSet resultset;
 
-    
+    // FUNCIONALIDADE: cadastro de produto no banco implementada
     public void cadastrarProduto(ProdutosDTO produto) {
 
         String sql = "INSERT INTO produtos (nome, valor, status) VALUES (?, ?, ?)";
