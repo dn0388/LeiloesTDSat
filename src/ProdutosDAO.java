@@ -90,7 +90,7 @@ public class ProdutosDAO {
         return vendidos;
     }
 
-    
+    // FUNCIONALIDADE: venda de produto com atualização de status
     public void venderProduto(int idProduto) {
 
         String select = "SELECT * FROM produtos WHERE id = ?";
