@@ -2,6 +2,7 @@
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+// ATIVIDADE 3: tela de vendas exibe apenas produtos vendidos
 
 public class vendasVIEW extends javax.swing.JFrame {
 
