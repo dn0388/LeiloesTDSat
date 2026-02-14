@@ -116,7 +116,7 @@ public class listagemVIEW extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+// ATIVIDADE 3: botão vender realiza venda do produto selecionado
     private void btnVenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVenderActionPerformed
       int id = Integer.parseInt(id_produto_venda.getText());
 
