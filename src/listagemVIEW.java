@@ -125,7 +125,7 @@ public class listagemVIEW extends javax.swing.JFrame {
 
     listarProdutos(); // atualiza a tabela depois da venda
     }//GEN-LAST:event_btnVenderActionPerformed
-
+// ATIVIDADE 3: botão Consultar Vendas abre a tela de vendas
     private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
           vendasVIEW vendas = new vendasVIEW();
     vendas.setVisible(true);
