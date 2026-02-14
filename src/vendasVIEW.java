@@ -117,7 +117,8 @@ public class vendasVIEW extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
-private void listarProdutosVendidos() {
+// FUNCIONALIDADE: listagem de produtos vendidos implementada
+    private void listarProdutosVendidos() {
     try {
         ProdutosDAO dao = new ProdutosDAO();
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
