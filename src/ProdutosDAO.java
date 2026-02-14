@@ -4,6 +4,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 // ATIVIDADE 3: método venderProduto atualiza status para Vendido e registra venda
+// ATIVIDADE 3: método listarProdutosVendidos retorna produtos com status Vendido
 public class ProdutosDAO {
 
     Connection conn;
